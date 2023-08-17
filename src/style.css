@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+    background-color:#b40426;
+    
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-main {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212949;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.menu, .home, .card-country,.about{
+    box-shadow: #212949;
+    position: absolute;
+    background-color: #212949;
+}
+
+.menu {
+    background-color: #212949;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+.menu .menu-ul {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.menu-nav {
+    display: flex;
+    font-size: 1.1em;
+    background-color: #212949
+}
+
+.menu-nav:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    background-color: #9ca287;
+    border-radius: 18px;
+    padding: 5px;
+}
+
+.menu-nav p{
+    padding: 3px;
+}
+
+.menu-ul li {
+    list-style-type: none;
+}
+
+.home {
+    display: inline-flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 10px;
+    gap: 50px;
+    padding: 0px 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+.home, .countries, .about{
+    border-radius: 18px;
+    background-color:#212949;
+    padding: 10px 6px;
+}
+
+.home p, .countries p,.about p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    padding-left: 5px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.countries, .about{
+    margin-top: 30px;
+    display: inline-flex;
+}
+
+.countries{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+.filter-input{
+    display: flex;
+    gap: 20px;
+}
+
+.filter-input select{
+    border-radius: 18px;
+    background-color: #9ca287;
+    color: #fff;
+    font-size: 1em;
+    height: 40px;
+}
+
+.filter-input input{
+    border-radius: 18px;
+    border: 2px solid #9ca287;
+    height: 40px;
+    font-size: 1rem;
+    padding: 2px;
+    outline: #9ca287;
+}
+
+.statistic-data {
+    font-size: 1.1rem;
+    color:#9ca287;
+    padding: 5px;
+}
+
+.card-country{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    margin: 50px 0px 10px;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.visible{
+    display: flex;
+}
+
+.home{
+    width: 100%;
+}
+
+.menu {
+    background-color: #fff;
+    width: 85%;
+    max-width: 800px;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+.menu .menu-ul {
+    padding: 6px;
+}
+
+.menu-nav, .home p {
+    font-size: 1em;
+}
+
+.about p {
+    font-size: 1.3rem;
+    margin: 50px 10px 10px;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+}
+
+
+/* azul #212949
+   verde #9ca287
+   vermelho #b40426

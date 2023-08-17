@@ -5,7 +5,8 @@
     <title>Love Travelers</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="body main">
+    <img class="burger-menu" src="assets/menu_icon.svg" alt="icone-menu">
 
     <nav class="menu">
       <ul class="menu-ul">
@@ -33,15 +34,21 @@
           <p>Seja bem-vinda(o) à nossa empresa de Intercâmbio! Estamos felizes em ter você aqui. Nossa página web é dedicada a ajudar pessoas como você a encontrar oportunidades de intercâmbio em todo o mundo. Aqui você pode encontrar informações importantes sobre os países como destinos populares, câmbio local e linguagem. Esperamos que você encontre o destino ideal e tenha uma experiência incrível! Não hesite em nos contatar para tirar dúvidas, compreender sobre a documentação necessária e consultar orçamentos.</p>
       </div> 
       <img src="" alt="Imagem representativa de intercâmbio e viagens">
-      <p>©️ Gabriella Bruno   ©️Maria Luiza Mineiro </p>
+    <div class="countries">
+        <div class="filter-input">
+          <select id="select-order-country">
+            <option value="filtro" selected disabled>Filtro</option>
+            <option value="a-z">Nome (A-Z)</option>
+            <option value="z-a">Nome (Z-A)</option>
+        </select>
+        <h2 class="statistic-data">No total, existem 195 países no mundo.</h2>
 
-      <div> div de countries que vai conter uma div de class filter inputs e nela os campos "filtro" (select id) e "ordenar" e os cards dos países devem ser criados em JS
-        <h3> Reuna informações e escolha conosco o destino de seu intercambio:</h3> 
+        </div>
+        <h3> Reúna informações e escolha conosco o destino do seu intercâmbio:</h3> 
   
       </div>
 
-      <div class = "about-end" >
-         <h1> About</h1> 
+      <div class = "about-end">
          <p> Sou Gabriella Vieira Bruno, aluna da SP011 da Laboratória,  esse é o segundo projeto realizado do programa. Estou muito animada em compartilhar com vocês um pouco sobre mim e sobre o que estamos fazendo aqui na Laboratoria. </p>
          <img src="" > <!--colocar a imagem da Gabi-->
 
@@ -49,11 +56,12 @@
          <img src = "" > <!--colocar a imagem da Malu-->
 
         <p>Espero que você goste do nosso trabalho e fique à vontade para entrar em contato conosco se tiver alguma dúvida ou sugestão. Obrigada por visitar o nosso site!</p>
-
-        <p>©️ Gabriella Bruno   ©️Maria Luiza Mineiro</p>
       </div>
+</div>
 
-      </div>
+<footer>
+  <p>©<a href="https://github.com/Gabsvb1" target="_blank"><ion-icon name="logo-github"></ion-icon> Gabriella Vieira Bruno</a> ©<a href="https://github.com/malumineiro" target="_blank"><ion-icon name="logo-github"></ion-icon> Maria Luiza Mineiro</a></p>          
+</footer>
 
 
     <div id="root"></div>

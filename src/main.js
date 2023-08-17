@@ -1,6 +1,15 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+import { filtroPaises, sortByAZ } from "./data";
+import data from '.data/countries/countries.js';
 
-console.log(example, data);
+const homePage = document.querySelector('#home-nav');
+const countriesPage = document.querySelector('#countries-nav');
+const aboutPage = document.querySelector('#about-nav');
+const divHome = document.querySelector('.home');
+const divCountriess = document.querySelector('.countries');
+const divAbout = document.querySelector('.about');
+const statisticText = document.querySelector(".statistic-data");
+
+const selectOrder = document.querySelector("#select-order-country");
+
+const clickMenu = document.querySelector(".burger-menu");
+const itensMenu = document.querySelector(".menu");
