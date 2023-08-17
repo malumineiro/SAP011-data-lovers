@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.btn {
+    width: 155px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 20px;
+    outline: none;
+    transition: 1s ease-in-out;
+
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#menu {
+    margin: 0 auto;
+    width: 550px;
+    background-color: #91C9FF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page {
+    border: 1px solid red;
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+#countries-header{
+    border: 1px solid green;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#coutries-filter-conteiner {
+    width: 181px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#countries-conteiner {
+    height: 800px;
+    border: 1px solid greenyellow;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.card {
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
