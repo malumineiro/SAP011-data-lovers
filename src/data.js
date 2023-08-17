@@ -1,9 +1,7 @@
-// estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
-};
+export const filtroPaises = (paises,continente) =>{
+  return paises.filter(
+    (pais)=> pais.continents[0] === continente 
+  )
+}
 
-export const anotherExample = () => {
-  return 'OMG';
-};
