@@ -1,7 +1,35 @@
 
-export const filtroPaises = (paises,continente) =>{
-  return paises.filter(
-    (pais)=> pais.continents[0] === continente 
-  )
-}
+export const filterByContinent = (continent, paises) => {
+  return paises.filter((pais) =>
+    pais.continents[0].toLowerCase().includes(continent)
+  );
+};
+
+export const organize = (ordem, paises) => {
+  switch (ordem) {
+  case "asc":
+    return paises.sort((a, b) => {
+       
+      if (a.name.common < b.name.common) {
+        return -1;
+      }
+      if (a.name.common > b.name.common) {
+        return 1;
+      }
+      return 0;
+    });
+  case "desc":
+    return paises.sort((a, b) => {
+      if (a.name.common > b.name.common) {
+        return -1;
+      }
+      if (a.name.common < b.name.common) {
+        return 1;
+      }
+      return 0;
+    });
+  default:
+    break;
+  }
+};
 
