@@ -13,15 +13,6 @@ Adicionar imagem de capa.
 
 ***
 
-## Protótipo de Baixa Fidelidade 
-![prototipo-de-baixa-fidelidade](<DL prototipo de baixa fidelidade.jpeg>)
-
-## Protótipo de Alta Fidelidade 
-![prototipo-de-alta-fidelidade1](DLreadmewelcome.png)
-![prototipo-de-alta-fidelidade2](DLreadme2.png)
-![prototipo-de-alta-fidelidade3](DLreadme3.png)
-![prototipo-de-alta-fidelidade4](DLreadme4.png)
-
 ## 1. Descrição do Projeto
 
 Para este projeto trazemos uma série de dados de Países, de modo que o usuário consiga verificar as informações pertinentes para o seu processo de intercâmbio. 
@@ -34,20 +25,40 @@ Para isso, nessa interface, ela pode verificar todas as informações relevantes
 
 Como entregavél final teremos uma página web que permite visualizar dados dos países do mundo, filtrá-los, ordená-los e fazer cálculo agregado. 
 
+## Protótipo de Baixa Fidelidade 
+![prototipo-de-baixa-fidelidade](<DL prototipo de baixa fidelidade.jpeg>)
+
+## Protótipo de Alta Fidelidade 
+![prototipo-de-alta-fidelidade1](DLreadmewelcome.png)
+![prototipo-de-alta-fidelidade2](DLreadme2.png)
+![prototipo-de-alta-fidelidade3](DLreadme3.png)
+![prototipo-de-alta-fidelidade4](DLreadme4.png)
+
 ## 2. Status do Projeto 
 
-Em desenvolvimento. 
+Em desenvolvimento ✔
 
-## 3. Funcionalidades e Demonsrtração da Aplicação
+## 3. Funcionalidades e Demonstração da Aplicação
 
-Aqui colocar os problemas de usabilidade que tivemos. 
+Ao realizar os testes de usabilidade com três usuárias diferentes recebemos alguns feedbacks: complementar o conteúdo do about, mostrar onde apareceria o cálculo agregado, aumentar a fonte dos textos e melhorar o filtro. Realizamos essas melhorias implementando mudanças no CSS para aumentar o tamanho da fonte e adicionamos um novo filtro para que o projeto ficasse mais intuitivo, resultando em dois filtros no total.
+
+No acesso inicial do site os usuários serão direcionados à home page, a qual possui uma introdução dos objetivos da nossa aplicação web. Para navegar pela página, deve-se clicar no botões do menu (home, countries e about). A página countries contém os dados reunidos e filtros para que seja possível ordenar e visualizar informações sobre os países. Por fim, a página about reúne informações sobre as desenvolvedoras do projeto. 
+
+
+As aplicações deste projeto são:
+
+* Reunir e organizar dados através de filtragens.
+* Aplicação de dois tipos de filtro: filtro por continente e ordenação dos países por A-Z e Z-A.
+* Apresentar um cálculo agregado (porcentagem do idioma mais falado no continente selecionado).
+* Mostrar data informativa do tema escolhido por meio da função de printar cards. 
 
 ## 4. Acesso ao Projeto 
 
 Colocar o link do projeto aqui. 
 
 ## 5. Tecnologias Utilizadas
-HTML | CSS | JavaScript
+
+![logo-html](image-2.png) ![logo-css](image-3.png) ![logo-js](image-4.png) ![logo-git](image-1.png)  ![logo-github](image.png) 
 ## 6. Desenvolvedoras
 **Gabriella Vieira Bruno** [LinkedIn](https://www.linkedin.com/in/gabriellavieirabruno/) | [GitHub](https://github.com/Gabsvb1)
 
