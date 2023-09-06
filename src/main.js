@@ -1,5 +1,5 @@
 import Countries from "./data/countries/countries.js"
-import { filterByContinent, organize, calculateTotalPopulation } from "./data.js"
+import { filterByContinent, organize, calculateTotalPopulation, calculateIndividualPopulationPercentage } from "./data.js"
 
 const totalPopulation = calculateTotalPopulation(Countries.countries)
 
@@ -16,7 +16,7 @@ const createCards = () => {
       <span>Capital: ${country.capital}</span>
       <span>Linguagens: ${country.languages && Object.values(country.languages).join(", ")}</span>
       <span>População: ${country.population.toLocaleString("pt-BR")}</span>
-      <span>${Math.round(((country.population *100)/totalPopulation*100))/100 }% da população global </span>
+      <span>${calculateIndividualPopulationPercentage(totalPopulation,country.population) }% da população global </span>
     </div>
     `
   ))

@@ -45,3 +45,9 @@ export const calculateTotalPopulation = (countries) => {
 
 }
 
+export const calculateIndividualPopulationPercentage = (total,individual)=>{
+  return Math.round(
+    ((individual *100)/total ) * 100
+  )/100 
+}
+
