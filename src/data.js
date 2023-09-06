@@ -9,7 +9,7 @@ export const organize = (ordem, paises) => {
   switch (ordem) {
   case "asc":
     return paises.sort((a, b) => {
-       
+
       if (a.name.common < b.name.common) {
         return -1;
       }
@@ -32,4 +32,16 @@ export const organize = (ordem, paises) => {
     break;
   }
 };
+
+
+export const calculateTotalPopulation = (countries) => {
+  let population = 0
+
+  countries.forEach(country => {
+    population += country.population
+  });
+
+  return population
+
+}
 
