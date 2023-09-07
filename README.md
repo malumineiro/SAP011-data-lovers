@@ -1,6 +1,6 @@
 # Data Lovers
 
-Adicionar imagem de capa.
+![cover-dl](image-5.png)
 
 ## Índice
 
@@ -34,9 +34,15 @@ Como entregavél final teremos uma página web que permite visualizar dados dos 
 ![prototipo-de-alta-fidelidade3](DLreadme3.png)
 ![prototipo-de-alta-fidelidade4](DLreadme4.png)
 
-## 2. Status do Projeto 
+## Responsividade
 
-Em desenvolvimento ✔
+O projeto se adapta a diferentes tamanhos de tela. 
+
+![responsive1](image-7.png)
+![responsive2](image-6.png)
+
+## 2. Status do Projeto 
+Finalizado ✔
 
 ## 3. Funcionalidades e Demonstração da Aplicação
 
@@ -49,12 +55,12 @@ As aplicações deste projeto são:
 
 * Reunir e organizar dados através de filtragens.
 * Aplicação de dois tipos de filtro: filtro por continente e ordenação dos países por A-Z e Z-A.
-* Apresentar um cálculo agregado (porcentagem do idioma mais falado no continente selecionado).
+* Apresentar um cálculo agregado (porcentagem do país específico em relação à população mundial.).
 * Mostrar data informativa do tema escolhido por meio da função de printar cards. 
 
 ## 4. Acesso ao Projeto 
 
-Colocar o link do projeto aqui. 
+Para acessar o ***lovetravelers*** clique aqui: https://malumineiro.github.io/SAP011-data-lovers/
 
 ## 5. Tecnologias Utilizadas
 
